@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+
+        p{ 
+            border: 1px solid red;
+            display: inline-block;
+        }
+
+        body {
+            margin-bottom: 750px;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+
+       <!-- Padding verme   -->
+    
+    <p>Frontend</p>
+    <p class="p-0">Frontend</p>    
+    <p class="p-1">Frontend</p>     <!-- her tarafından padding veriyor -->
+    <p class="p-2">Frontend</p>
+    <p class="p-3">Frontend</p>
+    <p class="p-4">Frontend</p>
+    <p class="p-5">Frontend</p>
+
+    <br>
+    <hr>
+    <br> 
+    <p class="pt-5">Frontend</p>  <!-- üstten padding -->
+    <p class="pb-5">Frontend</p>  <!-- alttan padding -->
+    <p class="ps-5">Frontend</p>  <!-- soldan padding -->
+    <p class="pe-5">Frontend</p>  <!-- sağdan padding -->
+    <p class="px-5">Frontend</p>  <!-- x ekseninde padding -->
+    <p class="py-5">Frontend</p>  <!-- y ekseninde padding -->
+    <br>
+    <hr>
+    <br> 
+
+      <!-- Margin Verme   -->
+    <div class="m-0"></div>
+    <div class="m-1"></div>
+    <div class="m-2"></div>
+    <div class="m-3"></div>
+    <div class="m-4"></div>
+    <div class="m-5"></div>
+
+    
+    <div class="mx-auto"></div>  <!-- sağdan soldan eşit margin vererek ortalama yapıyor  -->
+
+    <br>
+    <hr>
+    <br> 
+
+    <div class="position-relative d-inline-block mx-5" >
+        <div class="mt-2" style="width: 50px; height: 50px;">
+        </div>
+    </div>
+
+    <div class="position-relative d-inline-block me-5">
+        <div class="mt-2" style="width: 50px; height: 50px;">
+        </div>
+    </div>
+
+    <div class="position-relative d-inline-block me-5">
+        <div class="ms-2" style="width: 50px; height: 50px;">
+        </div>
+    </div>
+
+    
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
